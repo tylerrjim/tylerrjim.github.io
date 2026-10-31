@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 720" role="img" aria-labelledby="title description">
+  <title id="title">Portrait placeholder</title>
+  <desc id="description">A simple illustrated profile silhouette. Replace this file with your professional photo.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dceaff"/>
+      <stop offset="1" stop-color="#c9eee8"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2e6bd8"/>
+      <stop offset="1" stop-color="#19447f"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="720" fill="url(#background)"/>
+  <circle cx="520" cy="126" r="73" fill="#ffffff" opacity=".36"/>
+  <circle cx="94" cy="493" r="112" fill="#ffffff" opacity=".24"/>
+  <path d="M92 720c11-138 98-226 228-226s217 88 228 226" fill="url(#shirt)"/>
+  <path d="M254 483h132l35 77c-28 35-63 54-101 54s-73-19-101-54z" fill="#e2aa8e"/>
+  <ellipse cx="320" cy="304" rx="136" ry="166" fill="#f1c1a4"/>
+  <path d="M182 295c-19-121 43-209 149-209 86 0 147 51 149 155-37-4-86-27-120-75-45 54-104 79-178 77z" fill="#263d5e"/>
+  <path d="M183 296c-16 29-19 76-7 111 12 35 27 44 43 41l-4-93zm274 0c16 29 19 76 7 111-12 35-27 44-43 41l4-93z" fill="#e8b99c"/>
+  <path d="M256 306c14-10 34-10 49 0m55 0c14-10 34-10 49 0" fill="none" stroke="#30455b" stroke-linecap="round" stroke-width="8"/>
+  <circle cx="282" cy="333" r="6" fill="#253b55"/>
+  <circle cx="376" cy="333" r="6" fill="#253b55"/>
+  <path d="M306 399c10 9 19 13 29 13s19-4 29-13" fill="none" stroke="#a75e58" stroke-linecap="round" stroke-width="7"/>
+  <path d="M223 265c5-67 43-133 104-143 69-11 124 35 146 107-55-5-101-27-132-66-36 56-75 83-118 102z" fill="#263d5e"/>
+</svg>

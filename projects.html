@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Selected application, database, and network systems projects by James Thiongo.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Projects | James Thiongo</title>
+  <link rel="icon" href="assets/profile-placeholder.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="James Thiongo homepage">
+        <span class="brand-mark">JT</span>
+        <span>James Thiongo<span class="brand-dot">.</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="labs.html">Lab Challenges</a>
+        <a class="nav-contact" href="index.html#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <p class="eyebrow">Selected work</p>
+        <h1>Projects &amp;<br><span class="text-gradient">technical builds.</span></h1>
+        <p>A closer look at application engineering, database work, and networked systems. For hands-on security exercises, see the <a href="labs.html">lab write-ups</a>.</p>
+      </div>
+    </section>
+    <section class="section container project-list" id="projects">
+      <article class="project-detail" id="repairlink">
+        <div class="project-detail-art project-art-blue"><span>01</span><small>WEB APPLICATION</small></div>
+        <div class="project-detail-content">
+          <p class="eyebrow">Full-stack application</p>
+          <h2>RepairLink – Estate Service Delivery Platform</h2>
+          <p class="project-summary">A Laravel, React, and MySQL platform for managing repair requests between tenants and local contractors.</p>
+          <div class="detail-block"><h3>Key features</h3><p>Role separation, job-tracking dashboards, structured database relations, and simulated payment confirmation.</p></div>
+          <div class="detail-block"><h3>Technology</h3><div class="tag-list"><span>Laravel</span><span>React</span><span>MySQL</span></div></div>
+          <div class="project-links"><a class="button button-primary" href="https://github.com/JamesThiongo/repairlink" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </article>
+      <article class="project-detail" id="booking-engine">
+        <div class="project-detail-art project-art-violet"><span>02</span><small>DATABASE &amp; BACKEND</small></div>
+        <div class="project-detail-content">
+          <p class="eyebrow">Database architecture</p>
+          <h2>Booking &amp; Flight Admin Engine</h2>
+          <p class="project-summary">An administrative reservation system built around parameterized queries, relational integrity constraints, and stored procedures.</p>
+          <div class="detail-block"><h3>Focus</h3><p>Backend data handling and database practices intended to reduce injection risk and preserve relational consistency.</p></div>
+          <div class="detail-block"><h3>Technology</h3><div class="tag-list"><span>SQL</span><span>Parameterized queries</span><span>Stored procedures</span></div></div>
+        </div>
+      </article>
+      <article class="project-detail" id="network-lab">
+        <div class="project-detail-art project-art-green"><span>03</span><small>INFRASTRUCTURE</small></div>
+        <div class="project-detail-content">
+          <p class="eyebrow">Networking &amp; systems</p>
+          <h2>Enterprise Segmented Lab</h2>
+          <p class="project-summary">A virtualized network lab with segmented subnets, VLAN routing, and defensive perimeter monitoring.</p>
+          <div class="detail-block"><h3>Focus</h3><p>Simulating enterprise networking, host analysis, and traffic inspection in a controlled environment.</p></div>
+          <div class="detail-block"><h3>Topics</h3><div class="tag-list"><span>Virtual networking</span><span>VLANs</span><span>Traffic inspection</span></div></div>
+        </div>
+      </article>
+    </section>
+    <section class="section section-muted">
+      <div class="container project-callout">
+        <div><p class="eyebrow">Keep exploring</p><h2>Interested in the lab work?</h2></div>
+        <a class="button button-primary" href="labs.html">Browse lab write-ups <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="index.html">
+        <span class="brand-mark">JT</span>
+        <span>James Thiongo<span class="brand-dot">.</span></span>
+      </a>
+      <p>Built with clean HTML &amp; CSS for GitHub Pages.</p>
+      <span>© 2026 James Thiongo</span>
+    </div>
+  </footer>
+</body>
+</html>
